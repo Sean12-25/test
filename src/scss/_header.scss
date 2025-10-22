@@ -1,5 +1,5 @@
 header {
-  border-bottom: solid 1px #e5e7eb;
+  border-bottom: solid 1px var(--border-color);
 
   div.container {
     max-width: 90vw;
@@ -16,11 +16,11 @@ header {
       align-items: center;
 
       h3 {
-        margin: 0px;
+        margin: 0pxs;
         font-size: 1.25rem;
         font-weight: 700;
         line-height: 1.75rem;
-        color: #137fec;
+        color: var(--primary-caolr);
       }
 
       > div {
@@ -41,7 +41,7 @@ header {
         gap: 1.5rem;
 
         a {
-          color: #4d5563;
+          color: var(--text-color);
           text-decoration: inherit;
 
           &:hover {
@@ -59,18 +59,19 @@ header {
           width: 200px;
           padding: 1rem 0.5rem 1rem 1rem;
           border: none;
-          background-color: #f3f3f6;
+          background-color: var(--gray-color-100);
 
           &:focus {
             outline: none;
           }
         }
+
         button {
           border-top-right-radius: 1rem;
           border-bottom-right-radius: 1rem;
           padding: 0.5rem;
           border: none;
-          background-color: #f3f3f6;
+          background-color: var(--gray-color-100);
           cursor: pointer;
         }
       }
